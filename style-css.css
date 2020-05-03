@@ -4,13 +4,15 @@ body {
     color: rgb(10, 1, 26);
     
   }
+   a {color: whitesmoke
   
+  }
   /* header area */
   header {
     margin: 0px auto;
     width: 960px;
     background-color: rgb(42, 7, 245);
-    font-family:'Calibri, sans-serif;
+    font-family:'Calibri, sans-serif";
     color: white;
     height: 186px;
     
@@ -25,15 +27,20 @@ body {
   }
 
   section > img {
-      width: 200;
+      width: 200px;
       margin: 0;
 
   }
 
   .columns {
     float: left;
-    width: 33.33%;
+    width: 33.3%;
+  
 
+  }
+
+  #summary {
+    width: 100%;
   }
   
   
@@ -74,7 +81,7 @@ body {
   
   /* main body area */
   main {
-      margin: 0px auto;
+      margin: 30px auto;
       width: 960px;
   }
 
@@ -85,3 +92,7 @@ body {
 
   }
   /* footer area */ 
+  footer {
+    text-align: center;
+    background-color: blue;
+  }
